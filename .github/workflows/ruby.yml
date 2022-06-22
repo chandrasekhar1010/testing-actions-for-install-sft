@@ -31,6 +31,12 @@ jobs:
     - name: xcode version   
       run: exec xcodebuild -version
       
+    - name: pwd 
+      run: exec pwd , whoami , ls 
+      
+    - name: Install Pods
+      run: pod install
+      
    #- name: Install Pods
    #  run: |
    #    pod install
