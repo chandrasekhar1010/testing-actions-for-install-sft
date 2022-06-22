@@ -33,7 +33,6 @@ jobs:
       
     - name: pwd 
       run: 
-       exec pwd
        exec ls
        exec whoami
       
