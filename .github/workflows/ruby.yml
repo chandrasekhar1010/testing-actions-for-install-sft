@@ -33,6 +33,10 @@ jobs:
       
     - name: pwd 
       run: exec pwd
+    - name: pwd 
+      run: exec ls
+    - name: pwd 
+      run: exec whoami
       
     - name: Install Pods
       run: pod install
